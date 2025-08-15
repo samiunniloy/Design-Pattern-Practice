@@ -63,13 +63,9 @@ namespace BuilderDesignPattern
         }
     }
 
-    //Director: (Optional in this case, demonstrating without it)
-
-    //Client Code
-    //Testing the Builder Design Pattern
     public class Program
     {
-        public static void Main()
+        public static void main()
         {
             var userProfileBuilder = new ConcreteUserProfileBuilder();
 

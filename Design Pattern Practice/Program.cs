@@ -4,6 +4,7 @@ using Design_Pattern_Practice.AbstractFactoryPattern;
 using Design_Pattern_Practice.Builder_Design_Pattern;
 using Design_Pattern_Practice.Factory;
 using Design_Pattern_Practice.FactoryMethod;
+using Design_Pattern_Practice.FluentInterFace_Pattern;
 
 class Program
 {
@@ -18,6 +19,9 @@ class Program
         // AbstractFactoryPatternPaymentSystem.main();
         // AbstractCarsAndTracks.main();
         //BuilderDesignPattern.main();
-        TeaAndCoffee.main();
+        //TeaAndCoffee.main();
+        //FluentInterfacePattern.main();
+        //AutoMapperExample.main();
+        Validator.main();
     }
 }
