@@ -5,6 +5,9 @@ using Design_Pattern_Practice.Builder_Design_Pattern;
 using Design_Pattern_Practice.Factory;
 using Design_Pattern_Practice.FactoryMethod;
 using Design_Pattern_Practice.FluentInterFace_Pattern;
+using Design_Pattern_Practice.ProtoType_Pattern;
+using Design_Pattern_Practice.SingleTon;
+using PrototypeDesignPattern;
 
 class Program
 {
@@ -22,6 +25,13 @@ class Program
         //TeaAndCoffee.main();
         //FluentInterfacePattern.main();
         //AutoMapperExample.main();
-        Validator.main();
+        // Validator.main();
+        //ShoppingCart.main();
+        // Cloning.main();
+        // EmployeePrototypePattern.main();
+        //ThreadNotSafeSingleton.main();
+        //ThreadSafeSingleton.main();
+        //DoubleThreadSafeSingleton.main();
+        LazySafeSingleton.main();
     }
 }
